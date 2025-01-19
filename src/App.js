@@ -4,7 +4,7 @@ import './App.css';
 const Timer = () => {
   const [time, setTime] = useState(0);
   const [isActive, setIsActive] = useState(false);
-  const [mode, setMode] = useState('timer'); // 'timer' ya 'stopwatch'
+  const [mode, setMode] = useState('timer'); 
 
   useEffect(() => {
     let interval = null;
